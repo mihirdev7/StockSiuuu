@@ -1,6 +1,6 @@
 ### Stock Lookup App
 
-This is a simple Android application that allows users to search for a stock symbol and view its current price, percentage change, and company details using real-time stock market data.
+This is a simple Android application that allows users to search for a stock symbol and view its current price, percentage change, and company details using real-time stock market data. The app uses the Yahoo Finance API to get real-time stock data.
 
 #### Features:
 - Search for a stock symbol (e.g., AAPL, TSLA).
@@ -19,6 +19,3 @@ This is a simple Android application that allows users to search for a stock sym
 2. **Retrofit API Service**: Handles the network calls using the constants.
 3. **ViewModel**: Fetches stock data and updates the UI.
 4. **MainActivity**: Displays stock details and handles user interactions. 
-
-#### API Integration:
-- The app uses the Yahoo Finance API to get real-time stock data. You can modify the API key and base URL in the `Constants` class for easy updates.
